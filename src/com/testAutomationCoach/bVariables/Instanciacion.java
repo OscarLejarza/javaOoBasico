@@ -1,12 +1,12 @@
 package com.testAutomationCoach.bVariables;
 
-import com.testAutomationCoach.aAbstraccion.Articulo;
+import com.testAutomationCoach.aAbstraccion.ArticuloAmazon;
 import com.testAutomationCoach.aAbstraccion.Perro;
 
 public class Instanciacion {
 
     static Perro fido;
-    static Articulo tablet;
+    static ArticuloAmazon tablet;
     static int numeroEstudiantes;
 
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class Instanciacion {
         fido.ladrar();
         firulais.ladrar();
         tablet.toString();
-        Articulo laptop = new Articulo();
+        ArticuloAmazon laptop = new ArticuloAmazon();
         laptop.toString();
     }
 }
