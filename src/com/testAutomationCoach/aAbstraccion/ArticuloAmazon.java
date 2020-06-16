@@ -14,16 +14,16 @@ public class ArticuloAmazon {
 
 
 
-    public String agregarCarrito(String identificador) {}
+    public String agregarCarrito(String myColor) {}
 
-    public String buscar(String identificador) {}
+    public String buscar(String myLabel) {}
 
-    public String comprarButton(String tipoClic){}
+    public String comprarClick(String identificador){}
 
     public String compararlo(String identificador){}
 
     public String eliminar(String identificador) {}
 
-    public int seleccionarCantidad(int cantidadArticulos){}
+    public int seleccionarCantidad(int cantidad){}
 
 }
