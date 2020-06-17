@@ -1,7 +1,7 @@
 package com.testAutomationCoach.aEscuela;
 
-/*public class Grupo {
-    Maestro[] maestros;
+public class Grupo {
+    Materia asignatura;
     Alumno[] asistentes;
-
-}*/
+    Salon lugar;
+}
