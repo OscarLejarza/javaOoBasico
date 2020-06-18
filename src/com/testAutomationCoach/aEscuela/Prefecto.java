@@ -1,4 +1,6 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Prefecto {
+/*public class Prefecto {
 }
+
+ */

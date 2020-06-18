@@ -1,9 +1,11 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Edificio {
+/*public class Edificio {
     Salon[] salon;
     String idEdificio;
     Bano[] bano;
     boolean escaleras;
     Ventana[] vidrios;
 }
+
+ */

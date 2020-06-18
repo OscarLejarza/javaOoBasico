@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Alumno {
+/*public class Alumno {
     //atributos
     String nombre;
     String apellidoPaterno;
@@ -11,3 +11,5 @@ public class Alumno {
     Calificacion[] notas;
     char turno;
 }
+
+ */

@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aAbstraccion;
 
-public class ArticuloAmazon {
+/* public class ArticuloAmazon {
 
     String precio;
     String departamento;
@@ -27,3 +27,6 @@ public class ArticuloAmazon {
     public int seleccionarCantidad(int cantidad){}
 
 }
+
+
+ */

@@ -1,4 +1,6 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Laboratorio {
+/*public class Laboratorio {
 }
+
+ */

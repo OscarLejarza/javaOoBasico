@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aAbstraccion;
 
-public class Pelicula {
+/*public class Pelicula {
 
     String titulo;
     String clasificacion;
@@ -16,3 +16,5 @@ public class Pelicula {
     public String estreno (String myLabel) {}
     
 }
+
+ */

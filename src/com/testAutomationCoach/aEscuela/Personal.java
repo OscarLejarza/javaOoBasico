@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Personal extends Persona {
+/*public class Personal extends Persona {
     String departamento;
     String puesto;
     int numeroEmpleado;
@@ -19,3 +19,5 @@ public class Personal extends Persona {
 
     }
 }
+
+ */

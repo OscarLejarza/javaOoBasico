@@ -1,5 +1,5 @@
 package com.testAutomationCoach.bVariables;
-
+/*
 import com.testAutomationCoach.aAbstraccion.ArticuloAmazon;
 import com.testAutomationCoach.aAbstraccion.Perro;
 
@@ -24,3 +24,5 @@ public class Instanciacion {
         laptop.toString();
     }
 }
+
+ */

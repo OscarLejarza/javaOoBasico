@@ -1,6 +1,9 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Bano {
+/*public class Bano {
     MobiliarioSanitario[] tocador;
     SuministroSanitario[] suministros;
 }
+
+
+ */

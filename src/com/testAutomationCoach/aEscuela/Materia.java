@@ -1,6 +1,8 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Materia {
+/*public class Materia {
     String materia;
     float calif;
 }
+
+ */

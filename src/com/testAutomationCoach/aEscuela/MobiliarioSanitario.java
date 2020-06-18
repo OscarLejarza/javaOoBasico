@@ -1,6 +1,8 @@
 package com.testAutomationCoach.aEscuela;
 
-public class MobiliarioSanitario {
+/*public class MobiliarioSanitario {
     String funcion;
     String nombre;
 }
+
+ */

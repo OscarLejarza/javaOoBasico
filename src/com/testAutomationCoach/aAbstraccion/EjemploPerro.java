@@ -16,7 +16,8 @@ public class EjemploPerro {
         fido.correr();
         fido.comer();
 
-        Perro firulais 
+        Perro solovino = new Perro(34.5, "Chihuahua", "Solovino");
+        System.out.println("Nombre " + solovino.nombre);
 
       //  Perro solovino = new perro(tamanioPerro: 34.5, razaPerro: "Corriente", nombrePerro: "Solovino")
 

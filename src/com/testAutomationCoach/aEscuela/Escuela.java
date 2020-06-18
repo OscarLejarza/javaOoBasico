@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Escuela {
+/*public class Escuela {
     Edificio[] edificios;
     Personal[] personal;
     Edificio[] instalaciones;
@@ -9,3 +9,5 @@ public class Escuela {
     Prefecto[] prefectos;
 
 }
+
+ */
