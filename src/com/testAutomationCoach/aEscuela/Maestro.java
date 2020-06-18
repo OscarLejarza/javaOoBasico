@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aEscuela;
 
-public class Maestro extends Personal{
+/*public class Maestro extends Personal{
 
     String nombre;
     String apellidoPaterno;
