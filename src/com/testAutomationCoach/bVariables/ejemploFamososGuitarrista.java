@@ -3,32 +3,28 @@ package com.testAutomationCoach.bVariables;
 public class ejemploFamososGuitarrista {
 
     public static void main(String[] args) {
-        guitarrista[] listaGuitarrista = new guitarrista[5];
+        Guitarrista[] listaGuitarrista = new Guitarrista[5];
         int x = 0;
-        listaGuitarrista[0] = new guitarrista("Jimmy Hendrix", "Solista");
-        listaGuitarrista[1] = new guitarrista("James Hetfield", "Metallica");
-        listaGuitarrista[2] = new guitarrista("Slash", "Guns&Roses");
-        listaGuitarrista[3] = new guitarrista("Dave Mustaine", "Megadeth");
-        listaGuitarrista[4] = new guitarrista("Jimmy Page", "Led Zeppelin");
+        listaGuitarrista[0] = new Guitarrista("Jimmy Hendrix", "Solista");
+        listaGuitarrista[1] = new Guitarrista("James Hetfield", "Metallica");
+        listaGuitarrista[2] = new Guitarrista("Slash", "Guns&Roses");
+        listaGuitarrista[3] = new Guitarrista("Dave Mustaine", "Megadeth");
+        listaGuitarrista[4] = new Guitarrista("Jimmy Page", "Led Zeppelin");
 
-        guitarraElectrica g = new guitarraElectrica("Fender", "Modelo1", "bicolor");
-        g.famoso = listaGuitarrista;
+        GuitarraElectrica g = new GuitarraElectrica("Fender", "Modelo1",'D');
+        g.guitarristas = listaGuitarrista;
 
+        Guitarrista tom = new Guitarrista("Slash","Guns&Roses");
+       // tom.nombre = "Benito Juarez";
+       // listaGuitarrista[2] = tom;
 
-
-        guitarrista peter  = new guitarrista("Slash", "Guns&Roses");
-        // peter.nombre = "BenitoJuarez";
-        // listaGuitarrista[2] = peter;
-
-        for(int i = 0; i < g.famoso.length; i++) {
-            guitarrista actual = g.famoso[i];
-            if(actual.nombre.equals(peter.nombre)) {
-                System.out.println("el guitarrista " + peter.nombre + " toca la guitarra " + g.nombre);
+        for (int i = 0; i < g.guitarristas.length; i++) {
+            Guitarrista actual = g.guitarristas[i];
+            if(actual.nombre.equals(tom.nombre)) {
+                System.out.println("El guitarrista " + tom.nombre + " toca la guitarra " + g.tipoGuitarra);
                 break;
             }
-
         }
-
 
     }
 }

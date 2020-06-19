@@ -7,7 +7,7 @@ public class EjemploPerro {
           edad = 44;
         String nombre;
         Perro fido;
-        fido = new Perro(); //instanciación porque la clase perro tiene muchas variables
+        fido = new Perro(12, "labrador", "Django"); //instanciación porque la clase perro tiene muchas variables
         fido.nombre = "Fido";
         fido.raza = "Gran Danes";
         fido.tamanio = 45.0;

@@ -15,17 +15,12 @@ public class Perro {
 
     }
 
-    public Perro(){}
 
     //comportamiento: ladrar, juguetear, comer, etc.
 
     public void ladrar() {
         System.out.println("guau guau");
     }
-    public void correr() {
-        System.out.println("run run run run");
-    }
-    public void comer() {
-        System.out.println("ñom ñom ñom");
-    }
+    public void correr() {}
+    public void comer() {}
 }

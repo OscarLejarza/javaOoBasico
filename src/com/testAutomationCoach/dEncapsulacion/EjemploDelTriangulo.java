@@ -5,7 +5,7 @@ import libs.Input;
 public class EjemploDelTriangulo {
 
 	public static void main(String[] args) {
-		TrianguloRectangulo t = new TrianguloRectangulo(5,3);
+		TrianguloRectangulo t = new TrianguloRectangulo(5,3, 2, 4);
 		
 		System.out.println("El area es " + t.sacarArea());
 		System.out.println("El perimetro es " + t.sacarPerimetro());

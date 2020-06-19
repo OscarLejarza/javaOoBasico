@@ -1,13 +1,13 @@
 package com.testAutomationCoach.bVariables;
 
-/*import com.testAutomationCoach.aAbstraccion.Perro;
+import com.testAutomationCoach.aAbstraccion.Perro;
 
 public class DogArray {
     public static void main(String[] args) {
         Perro[] perrera;
         perrera = new Perro[12];
-        perrera[0] = new Perro(tamanioPerro);
-        perrera[1] = new Perro();
+        perrera[0] = new Perro(15, "Chihuhua","chispita");
+        perrera[1] = new Perro(30, "Doberman", "Muscles");
         System.out.println(perrera[2]);
         //inicializar el resto de los perros.
 
@@ -20,4 +20,4 @@ public class DogArray {
         perrera[0] = null;
 
     }
-}*/
+}
