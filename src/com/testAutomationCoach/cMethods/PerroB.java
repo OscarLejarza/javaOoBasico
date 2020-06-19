@@ -6,6 +6,12 @@ public class PerroB {
     public String raza;
     public String nombre;
 
+    public PerroB(double tam, String raza, String nombre){
+        this.tamanio = tam;
+        this.raza = raza;
+        this.nombre = nombre;
+    }
+
     //comportamiento: ladrar, juguetear, comer, etc.
 
     public void ladrar() {
@@ -22,14 +28,15 @@ public class PerroB {
         for(int i = 0; i < numLadridos; i++) {
             ladrar();
         }
+        /*public void correr() {
+            System.out.println("run run");
+            this.tamanio -= 0.02;
+
+         */
     }
 
     public double getTamanio() {
         return tamanio;
-    }
-
-    public void setTamanio(double tamanio) {
-        this.tamanio = tamanio;
     }
 
     public String getRaza() {

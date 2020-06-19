@@ -1,7 +1,7 @@
 package com.testAutomationCoach.aAbstraccion;
 
 public class EjemploPerro {
-    static Perro firulais;
+    static Perro firulais; // Una variable estatica depende si la accede el main
     public static void main(String[] args) {
         int edad;
           edad = 44;
@@ -28,4 +28,6 @@ public class EjemploPerro {
         firulais.ladrar();
 
     }
-}
+
+
+    }
