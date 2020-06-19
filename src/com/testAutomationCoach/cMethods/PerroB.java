@@ -47,4 +47,9 @@ public class PerroB {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public void  comer() { //comer por tamanio
+        System.out.println("chomp chomp I like Eukanoba");
+        this.tamanio += .05;
+    }
 }
