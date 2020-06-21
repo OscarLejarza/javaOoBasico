@@ -10,7 +10,7 @@ public class EjemploAnimales {
 
         Leon rey = new Leon();
         rey.hacerRuido();
-        rey.dormir();
+        rey.comer();
 
         //polyAnimal
         Animal chicoBestia = new Gato();
@@ -28,10 +28,10 @@ public class EjemploAnimales {
         zoologico[3] = new Lobo();
         zoologico[4] = new Puma();
 
-        for(Animal poly: zoologico) {
+        for(Animal poly: zoologico) { //Este ciclo recorre el arreglo zoologico desde la posicion 1 hasta la posicion final
             poly.hacerRuido();
             poly.comer();
-            //poly.recorrerTerreno();
+            poly.recorrerTerreno();
         }
 
     }

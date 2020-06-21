@@ -15,7 +15,7 @@ package com.testAutomationCoach.aEscuela;
 
     //public Maestro(){}
 
-}*/
+}
 
     public Maestro(String nombre, String direccion, int edad, String especialidad, String grado, String grupo) {
         super(nombre, direccion, edad);
@@ -23,3 +23,6 @@ package com.testAutomationCoach.aEscuela;
         this.grado = grado;
         this.grupo = grupo;
         }
+
+
+ */
