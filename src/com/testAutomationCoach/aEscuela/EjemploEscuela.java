@@ -1,6 +1,6 @@
 package com.testAutomationCoach.aEscuela;
-
-/*public class EjemploEscuela {
+/*
+public class EjemploEscuela {
     public static void main(String[] args){
         Alumno arlene = new Alumno(); // crea un objeto de la clase Alumno
         arlene.nombre = "Arlene"; // le da un valor al atributo nombre de la variable
@@ -52,4 +52,6 @@ package com.testAutomationCoach.aEscuela;
 
 
     }
-}*/
+}
+
+ */

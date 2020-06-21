@@ -7,13 +7,19 @@ package com.testAutomationCoach.aEscuela;
     String apellidoMaterno;
     String titulo;
     int edad;
-    Grupo[] grupos;
+    Grupo[] group;
     char turno;
-
-    //Materia[] clases;
+    Materia[] asignatura;
 
     //Constructor
 
     //public Maestro(){}
 
 }*/
+
+    public Maestro(String nombre, String direccion, int edad, String especialidad, String grado, String grupo) {
+        super(nombre, direccion, edad);
+        this.especialidad = especialidad;
+        this.grado = grado;
+        this.grupo = grupo;
+        }

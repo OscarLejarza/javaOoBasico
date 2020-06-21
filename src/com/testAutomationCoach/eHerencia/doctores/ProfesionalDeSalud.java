@@ -2,8 +2,21 @@ package com.testAutomationCoach.eHerencia.doctores;
 
 public class ProfesionalDeSalud {
 
-    String nombre;
-    String profesion;
+
+    protected String nombre;
+    protected String profesion;
+    public int x;
+
+    public ProfesionalDeSalud(String nombre, String profesion, int x) {
+        this.nombre = nombre;
+        this.profesion = profesion;
+        this.x = x;
+    }
+
+    public ProfesionalDeSalud() {
+        this.nombre = null;
+        this.profesion = null;
+    }
 
     public void tratarPaciente() {}
 

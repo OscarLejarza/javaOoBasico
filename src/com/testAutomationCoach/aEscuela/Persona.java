@@ -1,12 +1,14 @@
 package com.testAutomationCoach.aEscuela;
 
 /*public class Persona {
-    public String nombre;
-    public String apellidoPaterno;
-    public String apellidoMaterno;
-    public int edad;
-    public String direccion;
+    String nombre;
+    String direccion;
+    int edad;
 
-    public Persona(String nombre, String apellidoPaterno, String apellidoMaterno, int edad, String direccion);
 
+    public Persona(String nombre, String direccion, int edad) {
+    this.nombre = nombre;
+    this.direccion = direccion;
+    this.edad = edad;
+    }
 }*/
